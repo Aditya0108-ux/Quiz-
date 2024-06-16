@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the "
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hire"
+            android:textSize="50dp"
+            android:textStyle="italic"
+            android:textColor="@color/lightgreen" />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+            android:layout_marginLeft="20dp"
+            android:textSize="50dp"
+        android:textStyle="italic"
+        />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/submit"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+
+        android:src="@drawable/start"/>
+
+
+</RelativeLayout>

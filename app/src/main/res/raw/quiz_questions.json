@@ -1,0 +1,52 @@
+[
+  {
+    "question": "WAP stands for?",
+    "options": ["Wireless Application Protocol", "Wireless Application Program", "Wireless Application Portal", "Wireless Application Parts"],
+    "answer": "Wireless Application Protocol"
+  },
+  {
+    "question": " In android, mini activities are also known as?",
+    "options": ["Activity", "Adapter", "Fragments", "None"],
+    "answer": "Fragments"
+  },
+  {
+    "question": "In which of the following is the Android application Framework provided?",
+    "options": ["Zip file", "Jar file", "Object file", "EXE file"],
+    "answer": "Jar file"
+  },
+  {
+    "question": "JSON stands for _____",
+    "options": ["JavaScript Orientation Notation", "JavaScript Object Native", "JavaScript Object Notation", "None"],
+    "answer": "JavaScript Object Notation"
+  },
+  {
+    "question": "On which kernel is Android-based on",
+    "options": ["Windows", "Mac", "Linux", "Redhat"],
+    "answer": "Linux"
+  },
+  {
+    "question": "The fullform of ADB is",
+    "options": ["Android Delete Bridge", "Android Debug Bridge", "Android Destroy Bridge", "Android Developed Bridge"],
+    "answer": "Android Debug Bridge"
+  },
+  {
+    "question": "The fullform of ANR is",
+    "options": ["Application not rendering", "Application not responding", "Application not reacting", "Application not reachable"],
+    "answer": "Application not responding"
+  },
+  {
+    "question": "The services in android can be stopped using which of the following method?",
+    "options": ["system.exit() method","stopSelf() and stopService() method", "finish() method", "end() method"],
+      "answer": "stopSelf() and stopService() method"
+  },
+  {
+    "question": "What is an activity in android?",
+    "options": ["android class", "android package", "A single screen in an application with supporting java code", "None of the above"],
+    "answer": "A single screen in an application with supporting java code"
+  },
+  {
+    "question": "What is manifest XML in android?",
+    "options": ["It has information about layout in an application", "It has all the  information about an application", "It has the information about activities in an application", "None of the above"],
+    "answer": "It has all the  information about an application"
+  }
+]
